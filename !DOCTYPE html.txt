@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELADADE SOFTECH</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+        }
+        header {
+            background-color: #0a1f44;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #00c853;
+        }
+        nav {
+            background: #000;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #0a1f44;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ELADADE SOFTECH</h1>
+    <p>Innovating Your Digital World</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        ELADADE SOFTECH is a technology company specializing in CCTV installation,
+        networking, IT support, and web design. We provide smart technology and
+        security solutions for homes, businesses, and organizations.
+    </p>
+</section>
+
+<section>
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">CCTV Installation</div>
+        <div class="card">IP Camera & NVR Setup</div>
+        <div class="card">Computer Networking</div>
+        <div class="card">Router & Switch Configuration</div>
+        <div class="card">Computer Repair</div>
+        <div class="card">Website Design</div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Name: MUBARAKA Elidade</p>
+    <p>Company: ELADADE SOFTECH</p>
+    <p>Location: Kigali, Rwanda</p>
+    <p>Phone: +250 XXX XXX XXX</p>
+    <p>Email: eladadesoftech@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 ELADADE SOFTECH. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
